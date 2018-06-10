@@ -1,0 +1,4 @@
+name: default
+steps:
+  - name: gcr.io/cloud-builders/docker
+    args: ['build', '-t', '$_IMAGE', '.']
